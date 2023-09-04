@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#9A9A96"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:insetBottom="50dp"
+        android:text="-"
+        app:backgroundTint="#4CAF50"
+        tools:layout_editor_absoluteX="161dp"
+        tools:layout_editor_absoluteY="248dp" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:insetBottom="50dp"
+        android:text="*"
+        app:backgroundTint="#0C5B67"
+        tools:layout_editor_absoluteX="161dp"
+        tools:layout_editor_absoluteY="331dp" />
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:insetBottom="50dp"
+        android:text="/"
+        app:backgroundTint="#131311"
+        tools:layout_editor_absoluteX="161dp"
+        tools:layout_editor_absoluteY="414dp" />
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:insetBottom="50dp"
+        android:text="+"
+        app:backgroundTint="#B3350B"
+        app:iconTint="#090808"
+        tools:layout_editor_absoluteX="161dp"
+        tools:layout_editor_absoluteY="165dp" />
+
+    <EditText
+        android:id="@+id/editTextNumberDecimal"
+        android:layout_width="178dp"
+        android:layout_height="43dp"
+        android:layout_marginTop="40dp"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="16dp"
+        tools:text="valor 1" />
+
+    <EditText
+        android:id="@+id/editTextNumberDecimal2"
+        android:layout_width="177dp"
+        android:layout_height="41dp"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        android:text="valor 2"
+        tools:layout_editor_absoluteX="218dp"
+        tools:layout_editor_absoluteY="44dp" />
+
+    <LinearLayout
+        android:layout_width="424dp"
+        android:layout_height="217dp"
+        android:background="#F6F5E7"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.538"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="517dp">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="69dp"
+            android:text="ACA VA"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            tools:text="resultado" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="38dp"
+            android:text="ACA _VA"
+            android:textAlignment="center"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
